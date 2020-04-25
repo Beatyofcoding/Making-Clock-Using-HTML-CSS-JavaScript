@@ -7,6 +7,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .clock { 
@@ -25,6 +27,7 @@ position: relative;
     height: 100%;
     text-align: center;
     transform: rotate(var(--rotation));
+    font-size: 1.5rem;
 }
 
 .clock .number1 {--rotation: 30deg; }
