@@ -84,3 +84,19 @@ background-color: black;
 background-color: black;
 }
 
+body::after {
+    content: "SAM's Production";
+    position: absolute;
+    width: 10px;
+    height: 20%;
+    text-align: right;
+    /* transform: rotate(var(--rotation)); */
+    font-size: 20px;
+    /* text-align: center; */
+}
+/* .Signature {
+    position: relative;
+    font-size: x-large;
+    background-color: black;
+    background: black;
+} */
