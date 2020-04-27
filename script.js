@@ -17,3 +17,5 @@
         element.style.setProperty('--rotation', rotationRatio * 360)
     }
     
+    setClock()
+
